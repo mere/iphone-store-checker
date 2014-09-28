@@ -15,6 +15,16 @@
     float:right;
 }
 
+.note {
+    color: #ccc;
+    font-size: 80%;
+}
+
+
+.posts .brand-tagline{
+    padding:30px;
+}
+
 .post-description:empty{
     display: none;
 }

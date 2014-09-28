@@ -8,6 +8,7 @@ var ErrorPage = require('./ErrorPage.jsx')
 var Countries = require('./Countries.jsx')
 var ShareButtons = require('./ShareButtons.jsx')
 var About = require('./About.jsx')
+var Home = require('./Home.jsx')
 
 var component = React.createClass({
   
@@ -23,6 +24,7 @@ var component = React.createClass({
             <ShareButtons />
             {data.error? <ErrorPage message={data.error}/>:'' }
 
+            {data.page=="" && <Home />}
             {data.page=="about" && <About />}
 
 

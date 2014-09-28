@@ -32,6 +32,10 @@ module.exports = React.createClass({
             </figure>  
           )
       })}
+
+      <p className="note">
+        <b>Note:</b>More countries and regions will be added automatically as they become available for <b>Reserve&amp;Collect</b>.
+      </p>
       </section>
     )
 

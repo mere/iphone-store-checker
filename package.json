@@ -1,6 +1,6 @@
 {
   "name": "iphone-store-checker",
-  "version": "0.0.1",
+  "version": "0.0.1-2",
   "description": "iphone store checker",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,6 @@
     "www.iphonestorechecker.com"
   ],
   "preferGlobal": true,
-
   "subdomain": "iphonestorechecker",
   "author": "Zoltan Bourne",
   "license": "Creative Commons",
@@ -35,10 +34,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mere/iphonestorechecker.git"
+    "url": "https://github.com/mere/iphone-store-checker.git"
   },
   "bugs": {
-    "url": "https://github.com/mere/iphonestorechecker/issues"
+    "url": "https://github.com/mere/iphone-store-checker/issues"
   },
-  "homepage": "https://github.com/mere/iphonestorechecker"
+  "homepage": "https://github.com/mere/iphone-store-checker",
+  "engines": {
+    "node": "0.10.x"
+  }
 }
