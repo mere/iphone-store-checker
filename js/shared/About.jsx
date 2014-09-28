@@ -10,7 +10,7 @@ module.exports = React.createClass({
         </h1>
 
         <p>
-          iPhone Store Checker is a tiny weekend-project by <a href="https://www.linkedin.com/in/zoltanbourne" target="_blank">Zoltan Bourne</a> for making iPhone reservations super simple.
+          iPhone Store Checker is a tiny weekend-project by <a href="http://zoltanb.co.uk" target="_blank">Zoltan Bourne</a> for making iPhone reservations super simple.
         </p>
         <p>
           The site is created with <a href="http://purecss.io">purecss 
