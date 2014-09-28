@@ -78,12 +78,15 @@ self.countriesMiddleware = function(req,res, next){
 
 self.serverSideRenderingMiddleware = function(req,res, next){
   var path = req.path.match(/^[\/](.*[^\/])(?:[\/]$|$)/) // remove root and trailing slash
-  var model = require("../shared/model/model")()  
-  main.render(function(data){
+  var model = require("../shared/model/model")()
+  model.data.country = req.country
+  model.data.locale = req.locale
+  model.data.page = path?path.pop():''
+  main.render(model, function(data){
     var body = res.body
       .replace("{country}", req.country?"'"+req.country+"'":"null")
       .replace("{locale}", req.locale?"'"+req.locale+"'": "null")
-      .replace("{page}", path?path.pop():'')
+      .replace("{page}", model.data.page)
       .replace("<!--contents-->", data) 
     res.send(body)
   })
