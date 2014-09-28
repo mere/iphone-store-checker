@@ -156,14 +156,14 @@ function indexHTML(cb){
   });
 }
 
-refreshCountryList()
+console.log("NODE_ENV:", process.env.NODE_ENV)
+process.env.NODE_ENV=="production" && refreshCountryList()
 setTimeout(refreshCountryList, 86400000) //every day
 
 function refreshCountryList(){
   var numPending = 0
     , numFound = 0
   countries.forEach(function(country){
-    //country.available = []
     country.languages.forEach(function(lang){
       check(country, lang)
     })
