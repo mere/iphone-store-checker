@@ -1,0 +1,29 @@
+{
+  "name": "iphone-store-checker",
+  "version": "0.0.1",
+  "description": "iphone store checker",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "author": "Zoltan Bourne",
+  "license": "Creative Commons",
+  "dependencies": {
+    "browserify-middleware": "~3.0.0",
+    "express": "~3.4.8",
+    "envify": "1.2.1",
+    "react": "*",
+    "reactify": "*",
+    "node-jsx": "~0.2.1",
+    "react-tools": "~0.8.0",
+    "request": "~2.34.0",
+    "crypto": "0.0.3",
+    "querystring": "~0.2.0",
+    "base64codec": "0.0.3",
+    "purecss": "~0.5.0",
+    "styl": "~0.2.7"
+  },
+  "devDependencies": {
+    "node-dev": "~2.1.6"
+  }
+}

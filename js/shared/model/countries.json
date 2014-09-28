@@ -1,0 +1,1770 @@
+
+[
+  {
+    "code": "AF",
+    "languages": [
+      "ps",
+      "uz",
+      "tk"
+    ],
+    "name": "Afghanistan",
+    "available": []
+  },
+  {
+    "code": "AL",
+    "languages": [
+      "sq"
+    ],
+    "name": "Albania",
+    "available": []
+  },
+  {
+    "code": "DZ",
+    "languages": [
+      "ar",
+      "fr"
+    ],
+    "name": "Algeria",
+    "available": []
+  },
+  {
+    "code": "AD",
+    "languages": [
+      "ca"
+    ],
+    "name": "Andorra",
+    "available": []
+  },
+  {
+    "code": "AO",
+    "languages": [
+      "pt"
+    ],
+    "name": "Angola",
+    "available": []
+  },
+  {
+    "code": "AG",
+    "languages": [
+      "en"
+    ],
+    "name": "Antigua and Barbuda",
+    "available": []
+  },
+  {
+    "code": "AR",
+    "languages": [
+      "es",
+      "gn"
+    ],
+    "name": "Argentina",
+    "available": []
+  },
+  {
+    "code": "AM",
+    "languages": [
+      "hy",
+      "ru"
+    ],
+    "name": "Armenia",
+    "available": []
+  },
+  {
+    "code": "AU",
+    "languages": [
+      "en"
+    ],
+    "name": "Australia",
+    "available": [
+      "en"
+    ]
+  },
+  {
+    "code": "AT",
+    "languages": [
+      "de",
+      "hr",
+      "sl",
+      "cs",
+      "hu",
+      "sk",
+      "ro"
+    ],
+    "name": "Austria",
+    "available": []
+  },
+  {
+    "code": "AZ",
+    "languages": [
+      "az",
+      "hy"
+    ],
+    "name": "Azerbaijan",
+    "available": []
+  },
+  {
+    "code": "BS",
+    "languages": [
+      "en"
+    ],
+    "name": "Bahamas",
+    "available": []
+  },
+  {
+    "code": "BH",
+    "languages": [
+      "ar"
+    ],
+    "name": "Bahrain",
+    "available": []
+  },
+  {
+    "code": "BD",
+    "languages": [
+      "bn"
+    ],
+    "name": "Bangladesh",
+    "available": []
+  },
+  {
+    "code": "BB",
+    "languages": [
+      "en"
+    ],
+    "name": "Barbados",
+    "available": []
+  },
+  {
+    "code": "BY",
+    "languages": [
+      "be",
+      "ru"
+    ],
+    "name": "Belarus",
+    "available": []
+  },
+  {
+    "code": "BE",
+    "languages": [
+      "nl",
+      "fr",
+      "de"
+    ],
+    "name": "Belgium",
+    "available": []
+  },
+  {
+    "code": "BZ",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "name": "Belize",
+    "available": []
+  },
+  {
+    "code": "BJ",
+    "languages": [
+      "fr"
+    ],
+    "name": "Benin",
+    "available": []
+  },
+  {
+    "code": "BT",
+    "languages": [
+      "dz"
+    ],
+    "name": "Bhutan",
+    "available": []
+  },
+  {
+    "code": "BO",
+    "languages": [
+      "es",
+      "ay",
+      "qu"
+    ],
+    "name": "Bolivia",
+    "available": []
+  },
+  {
+    "code": "BA",
+    "languages": [
+      "bs",
+      "hr",
+      "sr"
+    ],
+    "name": "Bosnia and Herzegovina",
+    "available": []
+  },
+  {
+    "code": "BW",
+    "languages": [
+      "en",
+      "tn"
+    ],
+    "name": "Botswana",
+    "available": []
+  },
+  {
+    "code": "BR",
+    "languages": [
+      "pt",
+      "de"
+    ],
+    "name": "Brazil",
+    "available": []
+  },
+  {
+    "code": "BN",
+    "languages": [
+      "ml"
+    ],
+    "name": "Brunei",
+    "available": []
+  },
+  {
+    "code": "BG",
+    "languages": [
+      "bg"
+    ],
+    "name": "Bulgaria",
+    "available": []
+  },
+  {
+    "code": "BF",
+    "languages": [
+      "fr",
+      "ff"
+    ],
+    "name": "Burkina Faso",
+    "available": []
+  },
+  {
+    "code": "BI",
+    "languages": [
+      "fr",
+      "rn"
+    ],
+    "name": "Burundi",
+    "available": []
+  },
+  {
+    "code": "KH",
+    "languages": [
+      "km"
+    ],
+    "name": "Cambodia",
+    "available": []
+  },
+  {
+    "code": "CM",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "name": "Cameroon",
+    "available": []
+  },
+  {
+    "code": "CA",
+    "languages": [
+      "en",
+      "fr",
+      "cr",
+      "iu"
+    ],
+    "name": "Canada",
+    "available": [
+      "en",
+      "fr"
+    ]
+  },
+  {
+    "code": "CV",
+    "languages": [
+      "pt"
+    ],
+    "name": "Cape Verde",
+    "available": []
+  },
+  {
+    "code": "CF",
+    "languages": [
+      "fr",
+      "sg"
+    ],
+    "name": "Central African Republic",
+    "available": []
+  },
+  {
+    "code": "TD",
+    "languages": [
+      "ar",
+      "fr"
+    ],
+    "name": "Chad",
+    "available": []
+  },
+  {
+    "code": "CL",
+    "languages": [
+      "es"
+    ],
+    "name": "Chile",
+    "available": []
+  },
+  {
+    "code": "CN",
+    "languages": [
+      "zh"
+    ],
+    "name": "China",
+    "available": []
+  },
+  {
+    "code": "CO",
+    "languages": [
+      "es"
+    ],
+    "name": "Colombia",
+    "available": []
+  },
+  {
+    "code": "KM",
+    "languages": [
+      "ar",
+      "fr"
+    ],
+    "name": "Comoros",
+    "available": []
+  },
+  {
+    "code": "CD",
+    "languages": [
+      "fr",
+      "ln"
+    ],
+    "name": "Republic of the Congo",
+    "available": []
+  },
+  {
+    "code": "CR",
+    "languages": [
+      "es"
+    ],
+    "name": "Costa Rica",
+    "available": []
+  },
+  {
+    "code": "CI",
+    "languages": [
+      "fr"
+    ],
+    "name": "Cote d'Ivoire",
+    "available": []
+  },
+  {
+    "code": "HR",
+    "languages": [
+      "hr",
+      "it"
+    ],
+    "name": "Croatia",
+    "available": []
+  },
+  {
+    "code": "CU",
+    "languages": [
+      "es"
+    ],
+    "name": "Cuba",
+    "available": []
+  },
+  {
+    "code": "CY",
+    "languages": [
+      "el",
+      "tr",
+      "hy"
+    ],
+    "name": "Cyprus",
+    "available": []
+  },
+  {
+    "code": "CZ",
+    "languages": [
+      "cs",
+      "sk"
+    ],
+    "name": "Czech Republic",
+    "available": []
+  },
+  {
+    "code": "DK",
+    "languages": [
+      "da",
+      "fo",
+      "de",
+      "kl"
+    ],
+    "name": "Denmark",
+    "available": []
+  },
+  {
+    "code": "DJ",
+    "languages": [
+      "ar",
+      "fr"
+    ],
+    "name": "Djibouti",
+    "available": []
+  },
+  {
+    "code": "DM",
+    "languages": [
+      "en"
+    ],
+    "name": "Dominica",
+    "available": []
+  },
+  {
+    "code": "DO",
+    "languages": [
+      "es"
+    ],
+    "name": "Dominican Republic",
+    "available": []
+  },
+  {
+    "code": "TL",
+    "languages": [
+      "pt"
+    ],
+    "name": "Timor Leste",
+    "available": []
+  },
+  {
+    "code": "EC",
+    "languages": [
+      "es"
+    ],
+    "name": "Ecuador",
+    "available": []
+  },
+  {
+    "code": "EG",
+    "languages": [
+      "ar"
+    ],
+    "name": "Egypt",
+    "available": []
+  },
+  {
+    "code": "SV",
+    "languages": [
+      "es"
+    ],
+    "name": "El Salvador",
+    "available": []
+  },
+  {
+    "code": "GQ",
+    "languages": [
+      "es",
+      "fr"
+    ],
+    "name": "Equatorial Guinea",
+    "available": []
+  },
+  {
+    "code": "ER",
+    "languages": [
+      "ar",
+      "ti"
+    ],
+    "name": "Eritrea",
+    "available": []
+  },
+  {
+    "code": "EE",
+    "languages": [
+      "et",
+      "ru"
+    ],
+    "name": "Estonia",
+    "available": []
+  },
+  {
+    "code": "ET",
+    "languages": [
+      "am",
+      "en"
+    ],
+    "name": "Ethiopia",
+    "available": []
+  },
+  {
+    "code": "FJ",
+    "languages": [
+      "en",
+      "fj"
+    ],
+    "name": "Fiji",
+    "available": []
+  },
+  {
+    "code": "FI",
+    "languages": [
+      "fi",
+      "sv",
+      "se"
+    ],
+    "name": "Finland",
+    "available": []
+  },
+  {
+    "code": "FR",
+    "languages": [
+      "fr",
+      "co",
+      "br"
+    ],
+    "name": "France",
+    "available": [
+      "fr"
+    ]
+  },
+  {
+    "code": "GA",
+    "languages": [
+      "fr"
+    ],
+    "name": "Gabon",
+    "available": []
+  },
+  {
+    "code": "GM",
+    "languages": [
+      "en"
+    ],
+    "name": "Gambia",
+    "available": []
+  },
+  {
+    "code": "GE",
+    "languages": [
+      "ab",
+      "ka",
+      "os",
+      "ru"
+    ],
+    "name": "Georgia",
+    "available": []
+  },
+  {
+    "code": "DE",
+    "languages": [
+      "de",
+      "da",
+      "ro"
+    ],
+    "name": "Germany",
+    "available": [
+      "de"
+    ]
+  },
+  {
+    "code": "GH",
+    "languages": [
+      "en",
+      "ee",
+      "tw"
+    ],
+    "name": "Ghana",
+    "available": []
+  },
+  {
+    "code": "GR",
+    "languages": [
+      "el"
+    ],
+    "name": "Greece",
+    "available": []
+  },
+  {
+    "code": "GD",
+    "languages": [
+      "en"
+    ],
+    "name": "Grenada",
+    "available": []
+  },
+  {
+    "code": "GT",
+    "languages": [
+      "es"
+    ],
+    "name": "Guatemala",
+    "available": []
+  },
+  {
+    "code": "GN",
+    "languages": [
+      "fr",
+      "ff"
+    ],
+    "name": "Guinea",
+    "available": []
+  },
+  {
+    "code": "GN",
+    "languages": [
+      "pt"
+    ],
+    "name": "Guinea",
+    "available": []
+  },
+  {
+    "code": "GY",
+    "languages": [
+      "en"
+    ],
+    "name": "Guyana",
+    "available": []
+  },
+  {
+    "code": "HT",
+    "languages": [
+      "fr",
+      "ht"
+    ],
+    "name": "Haiti",
+    "available": []
+  },
+  {
+    "code": "HN",
+    "languages": [
+      "es",
+      "en"
+    ],
+    "name": "Honduras",
+    "available": []
+  },
+  {
+    "code": "HU",
+    "languages": [
+      "hu"
+    ],
+    "name": "Hungary",
+    "available": []
+  },
+  {
+    "code": "IS",
+    "languages": [
+      "is"
+    ],
+    "name": "Iceland",
+    "available": []
+  },
+  {
+    "code": "IN",
+    "languages": [
+      "en",
+      "as",
+      "bn",
+      "fr",
+      "gu",
+      "hi",
+      "kn",
+      "ks",
+      "ml",
+      "mr",
+      "ne",
+      "or",
+      "pa",
+      "sa",
+      "sd",
+      "ta",
+      "te",
+      "ur"
+    ],
+    "name": "India",
+    "available": []
+  },
+  {
+    "code": "ID",
+    "languages": [
+      "id",
+      "jv",
+      "ml",
+      "su"
+    ],
+    "name": "Indonesia",
+    "available": []
+  },
+  {
+    "code": "IR",
+    "languages": [
+      "fa",
+      "ku",
+      "ar"
+    ],
+    "name": "Iran",
+    "available": []
+  },
+  {
+    "code": "IQ",
+    "languages": [
+      "ar",
+      "ku"
+    ],
+    "name": "Iraq",
+    "available": []
+  },
+  {
+    "code": "IE",
+    "languages": [
+      "ga",
+      "en"
+    ],
+    "name": "Ireland",
+    "available": []
+  },
+  {
+    "code": "IL",
+    "languages": [
+      "he",
+      "ar"
+    ],
+    "name": "Israel",
+    "available": []
+  },
+  {
+    "code": "IT",
+    "languages": [
+      "it",
+      "sq",
+      "ca",
+      "hr",
+      "fr",
+      "de",
+      "el",
+      "sc",
+      "sl",
+      "en"
+    ],
+    "name": "Italy",
+    "available": [
+      "it"
+    ]
+  },
+  {
+    "code": "JM",
+    "languages": [
+      "en"
+    ],
+    "name": "Jamaica",
+    "available": []
+  },
+  {
+    "code": "JP",
+    "languages": [
+      "ja"
+    ],
+    "name": "Japan",
+    "available": [
+      "ja"
+    ]
+  },
+  {
+    "code": "JO",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "name": "Jordan",
+    "available": []
+  },
+  {
+    "code": "KZ",
+    "languages": [
+      "kk",
+      "ru"
+    ],
+    "name": "Kazakhstan",
+    "available": []
+  },
+  {
+    "code": "KE",
+    "languages": [
+      "en",
+      "sw"
+    ],
+    "name": "Kenya",
+    "available": []
+  },
+  {
+    "code": "KI",
+    "languages": [
+      "en"
+    ],
+    "name": "Kiribati",
+    "available": []
+  },
+  {
+    "code": "KP",
+    "languages": [
+      "ko"
+    ],
+    "name": "North Korea",
+    "available": []
+  },
+  {
+    "code": "KR",
+    "languages": [
+      "ko"
+    ],
+    "name": "South Korea",
+    "available": []
+  },
+  {
+    "code": "KW",
+    "languages": [
+      "ar"
+    ],
+    "name": "Kuwait",
+    "available": []
+  },
+  {
+    "code": "KG",
+    "languages": [
+      "ky",
+      "ru"
+    ],
+    "name": "Kyrgyzstan",
+    "available": []
+  },
+  {
+    "code": "LA",
+    "languages": [
+      "lo"
+    ],
+    "name": "Laos",
+    "available": []
+  },
+  {
+    "code": "LV",
+    "languages": [
+      "lv",
+      "ru"
+    ],
+    "name": "Latvia",
+    "available": []
+  },
+  {
+    "code": "LB",
+    "languages": [
+      "ar",
+      "fr",
+      "hy"
+    ],
+    "name": "Lebanon",
+    "available": []
+  },
+  {
+    "code": "LS",
+    "languages": [
+      "en",
+      "st"
+    ],
+    "name": "Lesotho",
+    "available": []
+  },
+  {
+    "code": "LR",
+    "languages": [
+      "en"
+    ],
+    "name": "Liberia",
+    "available": []
+  },
+  {
+    "code": "LY",
+    "languages": [
+      "ar"
+    ],
+    "name": "Libya",
+    "available": []
+  },
+  {
+    "code": "LI",
+    "languages": [
+      "de"
+    ],
+    "name": "Liechtenstein",
+    "available": []
+  },
+  {
+    "code": "LT",
+    "languages": [
+      "lt"
+    ],
+    "name": "Lithuania",
+    "available": []
+  },
+  {
+    "code": "LU",
+    "languages": [
+      "fr",
+      "de",
+      "lb"
+    ],
+    "name": "Luxembourg",
+    "available": []
+  },
+  {
+    "code": "MK",
+    "languages": [
+      "mk",
+      "sq",
+      "tr"
+    ],
+    "name": "Macedonia",
+    "available": []
+  },
+  {
+    "code": "MG",
+    "languages": [
+      "fr",
+      "en",
+      "mg"
+    ],
+    "name": "Madagascar",
+    "available": []
+  },
+  {
+    "code": "MW",
+    "languages": [
+      "ny",
+      "en"
+    ],
+    "name": "Malawi",
+    "available": []
+  },
+  {
+    "code": "MY",
+    "languages": [
+      "ml",
+      "en"
+    ],
+    "name": "Malaysia",
+    "available": []
+  },
+  {
+    "code": "MV",
+    "languages": [
+      "dv"
+    ],
+    "name": "Maldives",
+    "available": []
+  },
+  {
+    "code": "ML",
+    "languages": [
+      "fr"
+    ],
+    "name": "Mali",
+    "available": []
+  },
+  {
+    "code": "MT",
+    "languages": [
+      "mt",
+      "en",
+      "it"
+    ],
+    "name": "Malta",
+    "available": []
+  },
+  {
+    "code": "MH",
+    "languages": [
+      "en",
+      "mh"
+    ],
+    "name": "Marshall Islands",
+    "available": []
+  },
+  {
+    "code": "MR",
+    "languages": [
+      "ar",
+      "fr",
+      "ff",
+      "wo"
+    ],
+    "name": "Mauritania",
+    "available": []
+  },
+  {
+    "code": "MU",
+    "languages": [
+      "en"
+    ],
+    "name": "Mauritius",
+    "available": []
+  },
+  {
+    "code": "MX",
+    "languages": [
+      "es"
+    ],
+    "name": "Mexico",
+    "available": []
+  },
+  {
+    "code": "FM",
+    "languages": [
+      "en"
+    ],
+    "name": "Federated States of Micronesia",
+    "available": []
+  },
+  {
+    "code": "MD",
+    "languages": [
+      "ro",
+      "ru",
+      "uk"
+    ],
+    "name": "Moldova",
+    "available": []
+  },
+  {
+    "code": "MC",
+    "languages": [
+      "fr"
+    ],
+    "name": "Monaco",
+    "available": []
+  },
+  {
+    "code": "MN",
+    "languages": [
+      "mn"
+    ],
+    "name": "Mongolia",
+    "available": []
+  },
+  {
+    "code": "ME",
+    "languages": [
+      "sq",
+      "bs",
+      "hr",
+      "sr"
+    ],
+    "name": "Montenegro",
+    "available": []
+  },
+  {
+    "code": "MA",
+    "languages": [
+      "ar"
+    ],
+    "name": "Morocco",
+    "available": []
+  },
+  {
+    "code": "MZ",
+    "languages": [
+      "pt"
+    ],
+    "name": "Mozambique",
+    "available": []
+  },
+  {
+    "code": "MM",
+    "languages": [
+      "my"
+    ],
+    "name": "Myanmar",
+    "available": []
+  },
+  {
+    "code": "NA",
+    "languages": [
+      "en",
+      "af",
+      "de"
+    ],
+    "name": "Namibia",
+    "available": []
+  },
+  {
+    "code": "NR",
+    "languages": [
+      "en"
+    ],
+    "name": "Nauru",
+    "available": []
+  },
+  {
+    "code": "NP",
+    "languages": [
+      "ne"
+    ],
+    "name": "Nepal",
+    "available": []
+  },
+  {
+    "code": "NL",
+    "languages": [
+      "nl",
+      "li",
+      "en"
+    ],
+    "name": "Netherlands",
+    "available": [
+      "nl"
+    ]
+  },
+  {
+    "code": "NZ",
+    "languages": [
+      "en"
+    ],
+    "name": "New Zealand",
+    "available": []
+  },
+  {
+    "code": "NI",
+    "languages": [
+      "es"
+    ],
+    "name": "Nicaragua",
+    "available": []
+  },
+  {
+    "code": "NE",
+    "languages": [
+      "fr",
+      "ha",
+      "kr"
+    ],
+    "name": "Niger",
+    "available": []
+  },
+  {
+    "code": "NG",
+    "languages": [
+      "en",
+      "ha",
+      "yo",
+      "ig"
+    ],
+    "name": "Nigeria",
+    "available": []
+  },
+  {
+    "code": "NO",
+    "languages": [
+      "no",
+      "se",
+      "ro"
+    ],
+    "name": "Norway",
+    "available": []
+  },
+  {
+    "code": "OM",
+    "languages": [
+      "ar"
+    ],
+    "name": "Oman",
+    "available": []
+  },
+  {
+    "code": "PK",
+    "languages": [
+      "ur",
+      "en",
+      "pa",
+      "ps",
+      "sd"
+    ],
+    "name": "Pakistan",
+    "available": []
+  },
+  {
+    "code": "PW",
+    "languages": [
+      "en",
+      "ja"
+    ],
+    "name": "Palau",
+    "available": []
+  },
+  {
+    "code": "PS",
+    "languages": [
+      "ar"
+    ],
+    "name": "Palestinian Authority",
+    "available": []
+  },
+  {
+    "code": "PA",
+    "languages": [
+      "es"
+    ],
+    "name": "Panama",
+    "available": []
+  },
+  {
+    "code": "PG",
+    "languages": [
+      "en",
+      "ho"
+    ],
+    "name": "Papua New Guinea",
+    "available": []
+  },
+  {
+    "code": "PY",
+    "languages": [
+      "es",
+      "gn"
+    ],
+    "name": "Paraguay",
+    "available": []
+  },
+  {
+    "code": "PE",
+    "languages": [
+      "es",
+      "ay",
+      "qu"
+    ],
+    "name": "Peru",
+    "available": []
+  },
+  {
+    "code": "PH",
+    "languages": [
+      "ar",
+      "en",
+      "es",
+      "tl"
+    ],
+    "name": "Philippines",
+    "available": []
+  },
+  {
+    "code": "PL",
+    "languages": [
+      "pl",
+      "de",
+      "lt"
+    ],
+    "name": "Poland",
+    "available": []
+  },
+  {
+    "code": "PT",
+    "languages": [
+      "pt"
+    ],
+    "name": "Portugal",
+    "available": []
+  },
+  {
+    "code": "QA",
+    "languages": [
+      "ar"
+    ],
+    "name": "Qatar",
+    "available": []
+  },
+  {
+    "code": "RO",
+    "languages": [
+      "ro",
+      "hy"
+    ],
+    "name": "Romania",
+    "available": []
+  },
+  {
+    "code": "RU",
+    "languages": [
+      "ru",
+      "hy",
+      "av",
+      "az",
+      "ba",
+      "ce",
+      "cv",
+      "kv",
+      "os",
+      "tt"
+    ],
+    "name": "Russia",
+    "available": []
+  },
+  {
+    "code": "RW",
+    "languages": [
+      "en",
+      "fr",
+      "rw"
+    ],
+    "name": "Rwanda",
+    "available": []
+  },
+  {
+    "code": "KN",
+    "languages": [
+      "en"
+    ],
+    "name": "Saint Kitts and Nevis",
+    "available": []
+  },
+  {
+    "code": "LC",
+    "languages": [
+      "en"
+    ],
+    "name": "Saint Lucia",
+    "available": []
+  },
+  {
+    "code": "VC",
+    "languages": [
+      "en"
+    ],
+    "name": "Saint Vincent and the Grenadines",
+    "available": []
+  },
+  {
+    "code": "WS",
+    "languages": [
+      "en",
+      "sm"
+    ],
+    "name": "Samoa",
+    "available": []
+  },
+  {
+    "code": "SM",
+    "languages": [
+      "it"
+    ],
+    "name": "San Marino",
+    "available": []
+  },
+  {
+    "code": "ST",
+    "languages": [
+      "pt"
+    ],
+    "name": "Sao Tome and Principe",
+    "available": []
+  },
+  {
+    "code": "SA",
+    "languages": [
+      "ar"
+    ],
+    "name": "Saudi Arabia",
+    "available": []
+  },
+  {
+    "code": "SN",
+    "languages": [
+      "fr",
+      "ff",
+      "wo"
+    ],
+    "name": "Senegal",
+    "available": []
+  },
+  {
+    "code": "RS",
+    "languages": [
+      "sr",
+      "sq",
+      "hr",
+      "hu",
+      "ro",
+      "sk"
+    ],
+    "name": "Serbia",
+    "available": []
+  },
+  {
+    "code": "SC",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "name": "Seychelles",
+    "available": []
+  },
+  {
+    "code": "SL",
+    "languages": [
+      "en"
+    ],
+    "name": "Sierra Leone",
+    "available": []
+  },
+  {
+    "code": "SG",
+    "languages": [
+      "en",
+      "ml",
+      "zh",
+      "ta"
+    ],
+    "name": "Singapore",
+    "available": []
+  },
+  {
+    "code": "SK",
+    "languages": [
+      "sk"
+    ],
+    "name": "Slovakia",
+    "available": []
+  },
+  {
+    "code": "SI",
+    "languages": [
+      "sl",
+      "hu",
+      "it"
+    ],
+    "name": "Slovenia",
+    "available": []
+  },
+  {
+    "code": "SB",
+    "languages": [
+      "en"
+    ],
+    "name": "Solomon Islands",
+    "available": []
+  },
+  {
+    "code": "SO",
+    "languages": [
+      "so",
+      "ar"
+    ],
+    "name": "Somalia",
+    "available": []
+  },
+  {
+    "code": "ZA",
+    "languages": [
+      "af",
+      "en",
+      "st",
+      "ts",
+      "tn",
+      "ve",
+      "xh"
+    ],
+    "name": "South Africa",
+    "available": []
+  },
+  {
+    "code": "ES",
+    "languages": [
+      "es",
+      "ca",
+      "gl",
+      "eu",
+      "oc"
+    ],
+    "name": "Spain",
+    "available": [
+      "es"
+    ]
+  },
+  {
+    "code": "LK",
+    "languages": [
+      "si",
+      "ta"
+    ],
+    "name": "Sri Lanka",
+    "available": []
+  },
+  {
+    "code": "SD",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "name": "Sudan",
+    "available": []
+  },
+  {
+    "code": "SR",
+    "languages": [
+      "nl"
+    ],
+    "name": "Suriname",
+    "available": []
+  },
+  {
+    "code": "SZ",
+    "languages": [
+      "en"
+    ],
+    "name": "Swaziland",
+    "available": []
+  },
+  {
+    "code": "SE",
+    "languages": [
+      "sv",
+      "fi",
+      "ro",
+      "se",
+      "yi"
+    ],
+    "name": "Sweden",
+    "available": [
+      "sv"
+    ]
+  },
+  {
+    "code": "CH",
+    "languages": [
+      "de",
+      "fr",
+      "it",
+      "rm"
+    ],
+    "name": "Switzerland",
+    "available": [
+      "fr",
+      "de"
+    ]
+  },
+  {
+    "code": "SY",
+    "languages": [
+      "ar"
+    ],
+    "name": "Syria",
+    "available": []
+  },
+  {
+    "code": "TJ",
+    "languages": [
+      "tg",
+      "ru"
+    ],
+    "name": "Tajikistan",
+    "available": []
+  },
+  {
+    "code": "TZ",
+    "languages": [
+      "sw",
+      "en"
+    ],
+    "name": "Tanzania",
+    "available": []
+  },
+  {
+    "code": "TH",
+    "languages": [
+      "th"
+    ],
+    "name": "Thailand",
+    "available": []
+  },
+  {
+    "code": "TG",
+    "languages": [
+      "fr"
+    ],
+    "name": "Togo",
+    "available": []
+  },
+  {
+    "code": "TO",
+    "languages": [
+      "en"
+    ],
+    "name": "Tonga",
+    "available": []
+  },
+  {
+    "code": "TT",
+    "languages": [
+      "en"
+    ],
+    "name": "Trinidad and Tobago",
+    "available": []
+  },
+  {
+    "code": "TN",
+    "languages": [
+      "ar",
+      "fr"
+    ],
+    "name": "Tunisia",
+    "available": []
+  },
+  {
+    "code": "TR",
+    "languages": [
+      "tr"
+    ],
+    "name": "Turkey",
+    "available": [
+      "tr"
+    ]
+  },
+  {
+    "code": "TM",
+    "languages": [
+      "tk",
+      "ru"
+    ],
+    "name": "Turkmenistan",
+    "available": []
+  },
+  {
+    "code": "TV",
+    "languages": [
+      "en"
+    ],
+    "name": "Tuvalu",
+    "available": []
+  },
+  {
+    "code": "UG",
+    "languages": [
+      "en",
+      "sw"
+    ],
+    "name": "Uganda",
+    "available": []
+  },
+  {
+    "code": "UA",
+    "languages": [
+      "uk",
+      "ru"
+    ],
+    "name": "Ukraine",
+    "available": []
+  },
+  {
+    "code": "AE",
+    "languages": [
+      "ar"
+    ],
+    "name": "United Arab Emirates",
+    "available": []
+  },
+  {
+    "code": "GB",
+    "languages": [
+      "en"
+    ],
+    "name": "United Kingdom",
+    "available": [
+      "en"
+    ]
+  },
+  {
+    "code": "US",
+    "languages": [
+      "en",
+      "es",
+      "nv",
+      "ch",
+      "fr",
+      "sm"
+    ],
+    "name": "United States",
+    "available": []
+  },
+  {
+    "code": "UY",
+    "languages": [
+      "es"
+    ],
+    "name": "Uruguay",
+    "available": []
+  },
+  {
+    "code": "UZ",
+    "languages": [
+      "uz",
+      "ru"
+    ],
+    "name": "Uzbekistan",
+    "available": []
+  },
+  {
+    "code": "VU",
+    "languages": [
+      "bi",
+      "en",
+      "fr"
+    ],
+    "name": "Vanuatu",
+    "available": []
+  },
+  {
+    "code": "VA",
+    "languages": [
+      "it"
+    ],
+    "name": "Vatican City",
+    "available": []
+  },
+  {
+    "code": "VE",
+    "languages": [
+      "es"
+    ],
+    "name": "Venezuela",
+    "available": []
+  },
+  {
+    "code": "VN",
+    "languages": [
+      "vi"
+    ],
+    "name": "Vietnam",
+    "available": []
+  },
+  {
+    "code": "YE",
+    "languages": [
+      "ar"
+    ],
+    "name": "Yemen",
+    "available": []
+  },
+  {
+    "code": "ZM",
+    "languages": [
+      "en"
+    ],
+    "name": "Zambia",
+    "available": []
+  }
+]
