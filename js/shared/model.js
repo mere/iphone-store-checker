@@ -8,7 +8,7 @@ var data = {
   error:null,
   countries:[],
   countryObj: null
-  
+
 }
 
 function region(){
@@ -31,14 +31,14 @@ function refreshPhones(cb){
         })
       })
     })
-    console.log("Phones loaded", d, data.phones)
+    //console.log("Phones loaded", d, data.phones)
     cb()
   })
 }
 
 function refreshStores(cb){
   xhr("/api/stores"+region(), function(d){
-    console.log("Stores loaded", d)
+    //console.log("Stores loaded", d)
     data.stores = d
     cb()
   })
@@ -46,7 +46,7 @@ function refreshStores(cb){
 
 function refreshAvailability(cb){ 
   xhr("/api/availability"+region(), function(d){
-    console.log("Availability loaded", d)
+    //console.log("Availability loaded", d)
     data.lastUpdated = new Date()
     data.availability = d
     cb()    
@@ -55,7 +55,7 @@ function refreshAvailability(cb){
 
 function refreshCountries(cb){ 
   xhr("/api/countries", function(d){
-    console.log("Countries loaded", d)
+    //console.log("Countries loaded", d)
     data.countries = d
     data.countryObj = d.filter(function(d){ return d.code==data.country}).pop()
     cb()    
