@@ -9,9 +9,9 @@ if(process.env['http_proxy']) request = request.defaults({ proxy: process.env['h
 
 self.indexMiddleware = function(req,res, next){
   indexHTML(function send(data){
-      res.setHeader('Content-Type', 'text/html');
-      res.body = data
-      next()
+    res.setHeader('Content-Type', 'text/html');
+    res.body = data
+    next()
   })
 }
 
@@ -78,13 +78,13 @@ self.countriesMiddleware = function(req,res, next){
 
 self.serverSideRenderingMiddleware = function(req,res, next){
   var path = req.path.match(/^[\/](.*[^\/])(?:[\/]$|$)/) // remove root and trailing slash
+  var model = require("../shared/model/model")()  
   main.render(function(data){
     var body = res.body
       .replace("{country}", req.country?"'"+req.country+"'":"null")
       .replace("{locale}", req.locale?"'"+req.locale+"'": "null")
       .replace("{page}", path?path.pop():'')
       .replace("<!--contents-->", data) 
-
     res.send(body)
   })
 }
