@@ -126,32 +126,10 @@ function phonesMiddleware(req,res, next){
   })
 }
 
+
 function countriesMiddleware(req,res, next){
-
-  // dev
-  return res.json(countries.filter(function(d){return d.available.length}))
-
-  //prod
-  var numPending = 0
-  countries.forEach(function(country){
-    country.available = []
-    country.languages.forEach(function(lang){
-      check(country, lang)
-    })
-  })
-
-  function check(country, lang){
-    numPending++
-    var url = "https://reserve.cdn-apple.com/"+ country.code+"/"+lang+"_"+country.code +"/reserve/iPhone/availability"
-    request(url, function (error, response, body) {      
-    if (!error && response.statusCode == 200) {
-        country.available.push(lang)
-      }      
-      if (!--numPending) res.json(countries)
-    }).setMaxListeners(0)
-  }
+  res.json(countries.filter(function(d){return d.available.length}))
 }
-
 
 function serverSideRenderingMiddleware(req,res, next){
   var path = req.path.match(/^[\/](.*[^\/])(?:[\/]$|$)/) // remove root and trailing slash
@@ -177,3 +155,45 @@ function indexHTML(cb){
     cb(data);
   });
 }
+
+refreshCountryList()
+setTimeout(refreshCountryList, 86400000) //every day
+
+function refreshCountryList(){
+  var numPending = 0
+    , numFound = 0
+  countries.forEach(function(country){
+    //country.available = []
+    country.languages.forEach(function(lang){
+      check(country, lang)
+    })
+  })
+  console.log("checking", numPending, "regions")
+  function check(country, lang){
+    numPending++
+    var url = "https://reserve.cdn-apple.com/"+ country.code+"/"+lang+"_"+country.code +"/reserve/iPhone/availability"
+    setTimeout(function(){
+      request(url, function (error, response, body) {      
+        if (!error && response.statusCode == 200) {
+            if (!~country.available.indexOf(lang)) {
+              country.available.push(lang)
+            }
+            numFound++
+          }      
+          if (!--numPending) {
+            console.log("found", numFound, "regions")
+          }
+        }).setMaxListeners(0)
+      }
+      ,numPending*50
+      )
+  }
+}
+
+
+
+
+
+
+
+
