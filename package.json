@@ -4,8 +4,15 @@
   "description": "iphone store checker",
   "main": "index.js",
   "scripts": {
-    "build": "node index.js"
+    "start": "node index.js"
   },
+  "domains": [
+    "iphonestorechecker.com",
+    "www.iphonestorechecker.com"
+  ],
+  "preferGlobal": true,
+
+  "subdomain": "iphonestorechecker",
   "author": "Zoltan Bourne",
   "license": "Creative Commons",
   "dependencies": {
@@ -25,5 +32,13 @@
   },
   "devDependencies": {
     "node-dev": "~2.1.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mere/iphonestorechecker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mere/iphonestorechecker/issues"
+  },
+  "homepage": "https://github.com/mere/iphonestorechecker"
 }
