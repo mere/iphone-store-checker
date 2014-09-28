@@ -9,19 +9,22 @@ require.extensions['.jsx'] = function(module, filename) {
   module._compile(source, filename)
 }
 
-var request = require('request')
+console.log("NODE_ENV:", process.env.NODE_ENV)
+IS_PROD = process.env.NODE_ENV=="production"
+
 var browserify = require('browserify-middleware');
-var reactify = require('reactify');
 var express = require('express');
 var reactTools = require('react-tools')
 var express = require('express');
 var app = express();
-var main = require('./js/server/main')
-var countries = require('./js/shared/model/countries.json')
+var mw = require('./js/server/middleware')
+
+
+var port = IS_PROD? 80 : 3001
 
 var BROWSERIFY_CONFIG = {
   cache: true,
-  transform: reactify,
+  transform: require('reactify'),
   debug: true         
 }
 
@@ -38,162 +41,26 @@ app.param('locale', function (req, res, next, locale) {
 })
 
 app.get('/js/bundle.js', browserify('./js/client/main.js', BROWSERIFY_CONFIG));
-app.get('/css/bundle.css', cssMiddleware);
+app.get('/css/bundle.css', mw.cssMiddleware);
 
 // API
-app.get('/api/availability/:country/:locale', availabilityMiddleware);
-app.get('/api/stores/:country/:locale', storesMiddleware);
-app.get('/api/phones/:country/:locale', phonesMiddleware);
-app.get('/api/countries', countriesMiddleware)
+app.get('/api/availability/:country/:locale', mw.availabilityMiddleware);
+app.get('/api/stores/:country/:locale', mw.storesMiddleware);
+app.get('/api/phones/:country/:locale', mw.phonesMiddleware);
+app.get('/api/countries', mw.countriesMiddleware)
 
 // Pages
 app.use('/static', express.static(__dirname + '/static'));
-app.get('/phones/:country/:locale', indexMiddleware)
-app.get('/phones/:country/:locale', serverSideRenderingMiddleware)
-app.get('(/about|/)', indexMiddleware)
-app.get('(/about|/)', serverSideRenderingMiddleware)
-app.listen(3001);
+app.get('/phones/:country/:locale', mw.indexMiddleware)
+app.get('/phones/:country/:locale', mw.serverSideRenderingMiddleware)
+app.get('(/about|/)', mw.indexMiddleware)
+app.get('(/about|/)', mw.serverSideRenderingMiddleware)
 
-console.log("listening on http://localhost:3001")
+IS_PROD && mw.refreshCountryList()
+setTimeout(mw.refreshCountryList, 86400000) //every day
 
-if(process.env['http_proxy']) request = request.defaults({ proxy: process.env['http_proxy']});
-
-
-
-function indexMiddleware(req,res, next){
-  indexHTML(function send(data){
-      res.setHeader('Content-Type', 'text/html');
-      res.body = data
-      next()
-  })
-}
-
-function cssMiddleware(req,res, next){
-  if (!cssMiddleware.cache) {
-    var files = [
-      fs.readFileSync("./node_modules/purecss/pure.css","utf8"),
-      fs.readFileSync("./node_modules/purecss/grids-responsive.css","utf8"),
-      fs.readFileSync("./static/styles.css","utf8")
-    ]
-    cssMiddleware.cache = files.join("\n")
-  }
-    
-  res.setHeader('Content-Type', 'text/css');
-  res.send(cssMiddleware.cache)
-}
-
-
-function availabilityMiddleware(req,res, next){
-  var country = req.country
-  var locale = req.locale
-  if (!country || !locale) {
-    res.json({})
-    return;
-  }
-  var url = "https://reserve.cdn-apple.com/"+ country+"/"+locale +"/reserve/iPhone/availability.json"
-  request(url).pipe(res)  
-}
-
-function storesMiddleware(req,res, next){
-  var country = req.country
-  var locale = req.locale
-  if (!country || !locale) {
-    res.json({ stores: [] })
-    return;
-  }
-  var url = "https://reserve.cdn-apple.com/"+ country+"/"+locale +"/reserve/iPhone/stores.json"
-  request(url).pipe(res)  
-}
-
-function phonesMiddleware(req,res, next){
-  var country = req.country
-  var locale = req.locale
-
-  if (!country || !locale) {
-    res.json({ products: [] })
-    return;
-  }
-  var url = "https://reserve.cdn-apple.com/"+ country+"/"+locale +"/reserve/iPhone/availability"
-  request(url, function (error, response, body) {
-    if (!error && response.statusCode == 200) {
-      res.setHeader('Content-Type', 'application/json');
-      var match = body.match(/var RPData = (.*)<\/script>/)
-      var phones = (match.length==2)? match.pop(): {}
-      var data = phones.replace(/\\/g,"")
-      res.json(JSON.parse(data))
-    }
-    else next()
-  })
-}
-
-
-function countriesMiddleware(req,res, next){
-  res.json(countries.filter(function(d){return d.available.length}))
-}
-
-function serverSideRenderingMiddleware(req,res, next){
-  var path = req.path.match(/^[\/](.*[^\/])(?:[\/]$|$)/) // remove root and trailing slash
-  main.render(function(data){
-    var body = res.body
-      .replace("{country}", req.country?"'"+req.country+"'":"null")
-      .replace("{locale}", req.locale?"'"+req.locale+"'": "null")
-      .replace("{page}", path?path.pop():'')
-      .replace("<!--contents-->", data) 
-
-    res.send(body)
-  })
-}
-
-function indexHTML(cb){
-  if (indexHTML.data) return cb(indexHTML.data)
-  fs.readFile("./static/index.html", 'utf8', 
-    function (err, data) {
-    if (err) {
-      return console.error(err);
-    }
-    indexHTML.data = data
-    cb(data);
-  });
-}
-
-console.log("NODE_ENV:", process.env.NODE_ENV)
-process.env.NODE_ENV=="production" && refreshCountryList()
-setTimeout(refreshCountryList, 86400000) //every day
-
-function refreshCountryList(){
-  var numPending = 0
-    , numFound = 0
-  countries.forEach(function(country){
-    country.languages.forEach(function(lang){
-      check(country, lang)
-    })
-  })
-  console.log("checking", numPending, "regions")
-  function check(country, lang){
-    numPending++
-    var url = "https://reserve.cdn-apple.com/"+ country.code+"/"+lang+"_"+country.code +"/reserve/iPhone/availability"
-    setTimeout(function(){
-      request(url, function (error, response, body) {      
-        if (!error && response.statusCode == 200) {
-            if (!~country.available.indexOf(lang)) {
-              country.available.push(lang)
-            }
-            numFound++
-          }      
-          if (!--numPending) {
-            console.log("found", numFound, "regions")
-          }
-        }).setMaxListeners(0)
-      }
-      ,numPending*50
-      )
-  }
-}
-
-
-
-
-
+app.listen(port);
+console.log("listening on http://localhost:"+port)
 
 
 

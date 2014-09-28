@@ -7,7 +7,7 @@ module.exports = React.createClass({
       <div className="share-buttons">
         <a href="http://www.facebook.com/sharer.php?u=http://www.iphonestorechecker.com" target="_blank"><img src="/static/share/facebook.png" alt="Facebook" /></a>
          
-        <a href={"http://twitter.com/share?url=http://www.iphonestorechecker.com&text=Check out this awesome site that helps you reserve and pick up a new iPhone 6 today! \n&hashtags=iphonestorechecker"} target="_blank"><img src="/static/share/twitter.png" alt="Twitter" /></a>
+        <a href={"http://twitter.com/share?url=http://www.iphonestorechecker.com&text=Check out this awesome site to reserve and pick up a new iPhone 6 today! \n&hashtags=iphonestorechecker"} target="_blank"><img src="/static/share/twitter.png" alt="Twitter" /></a>
          
       </div>
     )
@@ -15,7 +15,7 @@ module.exports = React.createClass({
          
         //<a href="http://www.digg.com/submit?url=http://www.iphonestorechecker.com" target="_blank"><img src="/static/share/diggit.png" alt="Digg" /></a>
          
-        //<a href="http://reddit.com/submit?url=http://www.iphonestorechecker.com&title=Simple Share Buttons" target="_blank"><img src="/static/share/reddit.png" alt="Reddit" /></a>
+        //<a href={"http://reddit.com/submit?url=http://www.iphonestorechecker.com&title=iPhone Store Checker"} target="_blank"><img src="/static/share/reddit.png" alt="Reddit" /></a>
          
         //<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.iphonestorechecker.com" target="_blank"><img src="/static/share/linkedin.png" alt="LinkedIn" /></a>
          

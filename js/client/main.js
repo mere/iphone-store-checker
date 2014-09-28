@@ -3,7 +3,7 @@
  */
 var React = require('react');
 var App = require('../shared/App.jsx');
-var model = require('../shared/model.js');
+var model = require('../shared/model/model.js');
 module.exports = {};
 
 model.data.country = country
